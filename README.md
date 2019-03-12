@@ -30,7 +30,7 @@ VPC subnet CIDR block, default 10.0.0.0/24: <Enter>
 Client subnet CIDR block, block size between /16 and /22, not overlapping with VPC CIDR, default 10.1.0.0/16: <Enter>
 ```
 
-## How to send your Client VPN endpoint to send-by mode
+## How to send your Client VPN endpoint to stand-by mode
 
 Run ```disable.sh``` script.
 
