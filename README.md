@@ -21,8 +21,8 @@ Run ```deploy.sh``` script. The script leverages AWS CLoudFormation.
 The following is an example of parameters you provide.
 
 ```
-Client certificate ARN: <Enter>
-Server certificate ARN: <Enter>
+Client certificate ARN: arn:aws:acm:us-east-1:111111111111:certificate/222222222-3333-44444-55555-6666666666666<Enter>
+Server certificate ARN: arn:aws:acm:us-east-1:111111111111:certificate/222222222-3333-44444-55555-7777777777777<Enter>
 AWS region: us-east-1<Enter>
 CloudFormation stack name: MyClientVPN<Enter>
 VPC CIDR block, default 10.0.0.0/16: <Enter>
